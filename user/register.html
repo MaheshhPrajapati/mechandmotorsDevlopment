@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<!-- Mirrored from www.mechandmotors.com/user/register.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Jan 2021 08:28:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Mech&Motors | Register</title>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="../assets/css/animations.css">
+<link rel="stylesheet" href="../assets/css/font-awesome.css">
+
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="../assets/js/main.js"></script>
+<style>
+	.err-msg{
+		position: relative;
+		display: block;
+		font-size: 10px;
+		color: red;
+		font-weight: 500;
+		padding-left: 25px;
+		height: 20px;
+		/* padding-bottom: 5px; */
+		text-align: left;
+		letter-spacing: 2px;
+}
+</style>
+</head>
+<body>
+<div class="preloader">
+<div class="preloader_image"></div>
+</div>
+
+<div id="canvas">
+<div id="box_wrapper">
+
+<div class="header_absolute slide_absolute ds bs s-overlay">
+
+<section class="page_toplogo ds s-overlay s-pt-10 s-pb-5 s-py-lg-30">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<div class="d-lg-flex justify-content-lg-end align-items-lg-center">
+<div class="mr-auto">
+
+<div class="d-none d-lg-flex justify-content-center justify-content-lg-start">
+<a href="../index-2.html" class="logo">
+<img src="../assets/images/logo6.png" alt="">
+
+</a>
+</div>
+</div>
+
+<div class="d-flex justify-lg-content-end align-items-center meta-icons">
+<div class="media">
+<div class="icon-styled color-main fs-20">
+<i class="ico-email"></i>
+</div>
+<div class="media-body">
+<h6>Mail Us</h6>
+<p class="fw-400">
+<a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="6e030b0d060f000a03011a011c1d2e09030f0702400d0103">[email&#160;protected]</a>
+</p>
+</div>
+</div>
+<div class="media d-none d-md-flex">
+<div class="icon-styled color-main fs-20">
+<i class="ico-placeholder"></i>
+</div>
+<div class="media-body">
+<h6>Location</h6>
+<p class="fw-400">
+Kandivali(E),Mumbai:101
+</p>
+</div>
+</div>
+<div class="media">
+<div class="icon-styled color-main fs-20">
+<i class="ico-phone-call"></i>
+</div>
+<div class="media-body">
+<h6>Phone</h6>
+<p class="fw-400">
++91 77150 90081
+</p>
+</div>
+</div>
+<div class="d-none d-xl-block">
+<button class="btn btn-small btn-outline-maincolor btn-appointment" data-toggle="modal" data-target="#myModal">Book Now</button>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<header class="page_header s-py-10 s-py-lg-0 ds ms s-overlay nav-bordered justify-nav-center">
+<div class="container-fluid">
+<div class="row align-items-center">
+<div class="d-lg-none col-11">
+<a href="../index-2.html" class="logo">
+<img src="../assets/images/logo6.png" alt="">
+
+</a>
+</div>
+<div class="col-xl-12">
+<div class="nav-wrap">
+
+<nav class="top-nav">
+<ul class="nav sf-menu">
+<li class="active">
+<a href="#box_wrapper">Home</a>
+</li>
+<li>
+<a href="#choose-us">Why us?</a>
+</li>
+<li>
+<a href="#steps">Steps</a>
+</li>
+<li>
+<a href="#service">Service</a>
+</li>
+<li>
+<a href="#section_testimonials">Testimonials</a>
+</li>
+
+<li>
+<a href="#contacts">Contacts</a>
+</li>
+
+<li>
+<a href="login.html">Login</a><span>/</span>
+<a href="register.html">Register</a>
+</li>
+</ul>
+</nav>
+
+</div>
+</div>
+</div>
+</div>
+
+<span class="toggle_menu"><span></span></span>
+</header>
+</div>
+
+<section id="registerForm" class="ls s-pt-55 s-pb-15 s-pt-lg-145 s-pb-lg-85 c-mb-20 text-center text-md-left">
+<div class="container h-100">
+<div class="row h-100 justify-content-center align-items-center">
+<main class="text-center">
+<h1 class="formh3">Register</h1>
+<form action="https://www.mechandmotors.com/user/register.php" method="POST" autocomplete="off" data-parsley-validate="">
+
+<div class="row">
+<div>
+
+<input class="form-control" type="text" maxlenght="10" onchange="validate_in('fname')" name="first_name" value="" id="fname" placeholder="Firstname">
+<span class="err-msg" id="fmsg"></span>
+</div>
+<div>
+
+<input class="form-control" type="text" name="last_name" onchange="validate_in('lname')" value="" id="lname" placeholder="Lastname">
+<span class="err-msg" id="lmsg"></span>
+</div>
+</div>
+<div class="row">
+<div>
+
+<input class="form-control" type="tel" maxlength="10" onchange="validate_in('mob')" name="phone_no" value="" id="mob" maxlength="10" placeholder="Phone No">
+<span class="err-msg" id="mobmsg"></span>
+</div>
+<div>
+
+<input class="form-control" type="email" onchange="validate_in('email')" name="email_id" value="" id="email" placeholder="Email-id">
+<span class="err-msg" id="emailmsg"></span>
+</div>
+</div>
+<div class="row">
+<div>
+
+<input class="form-control" type="password" maxlength="15" name="password" onchange="validate_in('pwd')" value="" id="pwd" maxlength="8" placeholder="Password">
+<span class="err-msg" id="passmsg"></span>
+</div>
+<div>
+
+<input class="form-control" type="password" maxlength="15" 7 name="cpwd" onchange="validate_in('cpwd')" value="" id="cpwd" maxlength="8" placeholder="Confirm Password">
+<span class="err-msg" id="cpassmsg"></span>
+</div>
+</div><br><br>
+<button class="btn btn-small btn-maincolor log-btn" type="submit" name="registerbtn" id="submit">Register</button><br><br>
+Already have an account?
+<a href="login.html" class="text-danger" id="sign_up">Login Now</a>
+</form>
+</main>
+</div>
+</div>
+</section>
+
+
+<footer class="page_footer text-center text-md-left ds ms s-pt-65 s-pt-lg-125 s-pb-lg-35 c-gutter-40 main-footer">
+<div class="container">
+<div class="row">
+<div class="divider-20 d-none d-lg-block"></div>
+<div class="col-md-6 col-lg-3 animate" data-animation="fadeInUp">
+<div class="widget widget_icons_list">
+<a href="../index-2.html" class="logo">
+<img src="../assets/images/logo6.png" alt="">
+
+</a>
+<div class="media side-icon-box">
+<div class="icon-styled color-main">
+<i class="fa fa-map-marker"></i>
+</div>
+<p class="media-body color-grey">Lokhandwala Foundation, Kandivali(E), Mumbai:101 </p>
+</div>
+<div class="media side-icon-box">
+<div class="icon-styled color-main">
+<i class="fa fa-phone"></i>
+</div>
+<p class="media-body color-grey">+91 77150 90081</p>
+</div>
+<div class="media side-icon-box">
+<div class="icon-styled color-main">
+<i class="fa fa-envelope"></i>
+</div>
+<p class="media-body color-grey">
+<a href="mailto:"><span class="__cf_email__" data-cfemail="ea878f89828b848e87859e859899aa8d878b8386c4898587">[email&#160;protected]</span></a>
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-3 animate order-md-3 order-lg-2" data-animation="fadeInUp">
+<div class="widget widget_page_links">
+<h3>Support</h3>
+<ul>
+<li>
+<a href="../support/faq.html" target="_blank"><i class="ico-check-circle"></i>FAQs</a>
+</li>
+<li>
+<a href="../support/contact-us.html" target="_blank"><i class="ico-check-circle"></i>Contact US</a>
+</li>
+<li>
+<a href="../support/terms-and-conditions.html"><i class="ico-check-circle"></i>Terms & Conditions</a>
+</li>
+<li>
+<a href="../support/privacy-policy.html"><i class="ico-check-circle"></i>Privacy Policy</a>
+</li>
+<li>
+<a href="register.html"><i class="ico-check-circle"></i>Customer Signup</a>
+</li>
+<li>
+<a href="login.html"><i class="ico-check-circle"></i>Customer Signin</a>
+</li>
+<li>
+<a href="../partner/login.html"><i class="ico-check-circle"></i>Partner Signin</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6 col-lg-3 animate order-md-4 order-lg-3" data-animation="fadeInUp">
+<div class="widget widget_services_links">
+<h3>Bike Services</h3>
+<ul>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Oil and Filter change</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Air Filter</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Spark Plug</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Oiling Cables, Levers and Pivots</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Clutch Ajustment</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Engine Idle Speed</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Brake Pads</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6 col-lg-3 c-gutter-10 animate order-lg-4" data-animation="fadeInUp">
+<div class="widget widget_services_links">
+<h3>Car Services</h3>
+<ul>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Car Spa, Drycleaning & Detailing</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Custom Repairs</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Denting & Painting</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>AC/Heater Service</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Car Insurance Claim</p>
+</li>
+<li>
+<p class="media-body color-grey"><i class="ico-check-circle"></i>Car Towing Service</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<section class="page_copyright ds ms s-pt-5 s-pb-25 s-py-lg-20">
+<div class="container">
+<div class="divider-2 d-none d-lg-block"></div>
+<div class="row align-items-center">
+<div class="divider-20 d-none d-lg-block"></div>
+<div class="col-md-12 text-center">
+<p class="social-icons with-border">
+<span><a href="https://www.facebook.com/" class="fa fa-facebook border-icon rounded-icon" title="facebook"></a></span>
+<span><a href="https://telegram.org/" class="fa fa-paper-plane border-icon rounded-icon" title="telegram"></a></span>
+<span><a href="https://www.instagram.com/" class="fa fa-instagram border-icon rounded-icon" title="instagram"></a></span>
+</p>
+<p>&copy; Mech & Motors <span class="copyright_year">2020</span> All Rights Reserved</p>
+</div>
+<div class="divider-20 d-none d-lg-block"></div>
+</div>
+</div>
+</section>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/js/compressed.js"></script>
+<script src="../assets/js/main.js"></script>
+</div>
+</div>
+
+<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website&amp;utm_content=footer_img"><img src="../../cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div><script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&amp;utm_medium=panel&amp;utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Go for it</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday Prices",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Get 90% Off!",h2Tag.setAttribute("style",'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Get Web Hosting for $0.99/month + SSL Certificate for FREE!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 15px;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2020-wp-inject-img.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script></body>
+
+<!-- Mirrored from www.mechandmotors.com/user/register.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Jan 2021 08:28:56 GMT -->
+</html>
